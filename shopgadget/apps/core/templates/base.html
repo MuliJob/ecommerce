@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Gadgets</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">Shop Gadgets</a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-navbar">
+        <span arial-hidden="true"></span>
+        <span arial-hidden="true"></span>
+        <span arial-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="main-navbar" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    {% block content %}
+    {% endblock %}
+  </section>
+</body>
+</html>
